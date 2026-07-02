@@ -176,6 +176,18 @@
         font-size: 0.95rem;
       }
 
+      .publication-note {
+        margin: -8px 0 18px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      sup {
+        font-size: 0.72em;
+        line-height: 0;
+        vertical-align: super;
+      }
+
       .papers {
         display: grid;
         gap: 18px;
@@ -337,6 +349,7 @@
               <h2 id="publications-title">Publications</h2>
               <p class="section-note">Newest first</p>
             </div>
+            <p class="publication-note"><sup>*</sup> Equal contribution. <sup>&dagger;</sup> Corresponding author.</p>
 
             <div class="papers">
               <article class="paper">
@@ -347,7 +360,7 @@
                 >
                 <div class="paper-body">
                   <p class="paper-title">DPF: Differentiable Polyphase Filtering for Large-Kernel Approximation</p>
-                  <p class="paper-authors">Zhe Cao, Zhizhen Wu, Zhonggui Chen, Rui Wang, Yuchi Huo</p>
+                  <p class="paper-authors">Zhe Cao<sup>*</sup>, Zhizhen Wu<sup>*</sup>, Zhonggui Chen, Rui Wang, Yuchi Huo<sup>&dagger;</sup></p>
                   <p class="paper-meta">SIGGRAPH 2026</p>
                   <div class="paper-actions">
                     <a class="paper-action" href="https://huakaifugui2.github.io/CZ-DPF-Paper/" target="_blank" rel="noopener">Project</a>
@@ -381,7 +394,7 @@
                 >
                 <div class="paper-body">
                   <p class="paper-title">Consecutive Frame Extrapolation with Predictive Sparse Shading</p>
-                  <p class="paper-authors">Zhizhen Wu, Zhe Cao, Yazhen Yuan, Zhilong Yuan, Rui Wang, Yuchi Huo</p>
+                  <p class="paper-authors">Zhizhen Wu, Zhe Cao, Yazhen Yuan, Zhilong Yuan, Rui Wang, Yuchi Huo<sup>&dagger;</sup></p>
                   <p class="paper-meta">SIGGRAPH Asia 2025 / ACM TOG</p>
                   <div class="paper-actions">
                     <a class="paper-action" href="https://wzz.ink/projects/predictive-sparse-shading/" target="_blank" rel="noopener">Project</a>
